@@ -4,7 +4,7 @@
 }
 
 * {
-    border: solid 1px red;
+    border: solid 1px white;
     box-sizing: border-box;
 }
 
@@ -29,17 +29,17 @@ section {
     position: fixed;
     z-index: 2;
     margin: 0px;
-    border-radius: 50px;
+    border-radius: 10px;
     background-color: antiquewhite;
     height: 65px;
     width: 450px;
-    top: 0;
+    top: 5;
 
 }
 
 .navbar ul {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     
 }
@@ -56,16 +56,12 @@ section {
 .welcome {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
     align-items: center;
     justify-content: center;
     padding: 100px;
     font-family: 'PPhatton';
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     color: antiquewhite;
     background: linear-gradient(
         2deg,
