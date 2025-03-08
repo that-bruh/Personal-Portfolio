@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    border: solid 1px lightblue;
+}
+
+:root {
+
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: antiquewhite;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.welcome {
+    height: 100vh;
+    width: 100%; 
+    background-color: black;
+    color: antiquewhite;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.procontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 100%;
+}
+
+.proitem {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: 100%;
+    width: 45%;
+}
+
+.img {
+    background-color: aqua;
+    height: 65%;
+    width: 100%;
+
+}
+
+.contact {
+    height: 100vh;
+    width: 100%d;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+}
