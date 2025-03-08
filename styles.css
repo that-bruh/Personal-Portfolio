@@ -6,6 +6,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-size: 10px;
 }
 
 :root {
@@ -15,12 +16,14 @@ html, body {
     position: fixed;
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: rgb(93, 88, 88);
     color: antiquewhite;
     justify-content: center;
     width: 100%;
+    height: 75px;
     left: 0;
     top: 0;
+    
 }
 
 .navul {
@@ -30,17 +33,42 @@ html, body {
     margin: 0;
     padding: 10px;
     width: 30%;
+    font-family: PPhatton;
+    text-align: center;
 }
 
 .navbar li {
     list-style: none;
+    font-size: 2rem;
+    padding: 15px;
+    
 }
 
 .welcome {
-    height: 100vh;
-    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     background-color: black;
-    color: antiquewhite;
+    color: antiquewhite;  
+    height: 100vh;
+    width: 100%;
+    padding-top: 75px;
+    
+}
+
+.hi {
+    font-size: 3.5rem;
+    padding: 25px;
+}
+
+.divider {
+    border: 2px solid antiquewhite;
+    width: 60%;
+}
+
+.myname {
+    padding: 25px;
 }
 
 .projects {
