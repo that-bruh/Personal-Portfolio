@@ -16,7 +16,7 @@ html, body {
     position: fixed;
     display: flex;
     flex-direction: row;
-    background-color: rgb(33, 56, 56);
+    background-color: rgb(56, 69, 69);
     color: antiquewhite;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ html, body {
 }
 
 .navstyle {
-    border: solid 2px antiquewhite;
+    border: solid 2px rgb(214, 164, 0);
     border-radius: 1px;
     width: 15%;
     height: 0;
@@ -57,8 +57,10 @@ html, body {
     text-align: center;
     justify-content: center;
     background: linear-gradient(
+        -0deg,
         rgb(178, 254, 254),
-        rgb(33, 56, 56)
+        rgb(61, 98, 98) 25%,
+        rgb(33, 56, 56) 50%
     );
     color: antiquewhite;  
     height: 100vh;
@@ -73,7 +75,7 @@ html, body {
 }
 
 .divider {
-    border: 2px solid antiquewhite;
+    border: 2px solid rgb(214, 164, 0);
     border-radius: 1px;
     width: 60%;
 }
