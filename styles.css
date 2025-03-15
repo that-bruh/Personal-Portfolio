@@ -90,7 +90,7 @@ html, body {
     width: 100%;
 }
 
-.proitem {
+.project-tile {
     display: flex;
     flex-direction: column;
     background-color: red;
